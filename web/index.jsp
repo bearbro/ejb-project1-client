@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <jsp:forward page="webclient.jsp"/>
+  <a href="webclient.jsp">webclient.jsp</a><br>
+  <a href="myCart.jsp">myCart.jsp</a>
   </body>
 </html>

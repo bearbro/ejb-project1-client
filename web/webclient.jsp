@@ -5,9 +5,11 @@
   Time: 19:51
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%@ page import="javax.naming.*, java.util.Properties"%>
-<%@ page import="cn.edu.zjut.ejb.*"%>
+<%@ page import="cn.edu.zjut.ejb.UserServiceRemote" pageEncoding="UTF-8"%>
+<%@ page import="javax.naming.Context"%>
+<%@ page import="javax.naming.InitialContext"%>
+<%@ page import="javax.naming.NamingException"%>
+<%@ page import="java.util.Hashtable" %>
 <%
     try{
         final Hashtable jndiProperties = new Hashtable();
